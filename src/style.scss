@@ -69,12 +69,13 @@ body {
   color: white;
   box-shadow: 0 0px 10px 3px rgba(0,0,0,0.25);
   transition: all 0.3s ease;
+
+  &:hover {
+    box-shadow: 0 0px 10px 6px rgba(0,0,0,0.25);
+    transform: rotate(90deg) scale(1.1);
+  }
 }
 
-.newButton:hover {
-  box-shadow: 0 0px 10px 6px rgba(0,0,0,0.25);
-  transform: rotate(90deg) scale(1.1);
-}
 
 .button {
   font-family: 'Open Sans';
