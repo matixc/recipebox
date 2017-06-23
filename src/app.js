@@ -1,6 +1,6 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-require('./style.css');
+require('./style.scss');
 
 
 class AddButton extends React.Component {
